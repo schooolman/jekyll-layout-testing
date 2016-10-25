@@ -1,3 +1,10 @@
+---
+# this front matter will prompt Jekyll to transform this file into css for use in the site build.
+# partials don't use the front matter, and are processed after the import.
+---
+
+@import "partialOne";
+
 body {
   font: 16px/1.5 verdana, helvetica-neue, helvetica, arial, san-serif;
   background: black;
